@@ -1,0 +1,11 @@
+D:\180953322\l2\Project4\Project4\bin\Debug\Project4.exe.config
+D:\180953322\l2\Project4\Project4\bin\Debug\Project4.exe
+D:\180953322\l2\Project4\Project4\bin\Debug\Project4.pdb
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.csprojResolveAssemblyReference.cache
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.Form1.resources
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.Form4.resources
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.Properties.Resources.resources
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.csproj.GenerateResource.Cache
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.exe
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.pdb
+D:\180953322\l2\Project4\Project4\obj\Debug\Project4.Form2.resources

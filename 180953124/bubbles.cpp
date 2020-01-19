@@ -14,7 +14,23 @@ a[j] = temp;
 }
 }
 }
-
+void bubbleSort(int arr[], int n) 
+{ 
+    // Base case 
+    if (n == 1) 
+        return; 
+  
+    // One pass of bubble sort. After 
+    // this pass, the largest element 
+    // is moved (or bubbled) to end. 
+    for (int i=0; i<n-1; i++) 
+        if (arr[i] > arr[i+1]) 
+            swap(arr[i], arr[i+1]); 
+  
+    // Largest element is fixed, 
+    // recur for remaining array 
+    bubbleSort(arr, n-1); 
+} 
 
 void selection(int a[], int n){
 int smallest ,pos;step++;
@@ -37,7 +53,36 @@ a[i]=temp;step++;
 }step++;
 }
 }
-
+int minIndex(int a[], int i, int j) 
+{ 
+    if (i == j) 
+        return i; 
+  
+    // Find minimum of remaining elements 
+    int k = minIndex(a, i + 1, j); 
+  
+    // Return minimum of current and remaining. 
+    return (a[i] < a[k])? i : k; 
+} 
+  
+// Recursive selection sort. n is size of a[] and index 
+// is index of starting element. 
+void recurSelectionSort(int a[], int n, int index = 0) 
+{ 
+    // Return when starting and size are same 
+    if (index == n) 
+       return; 
+  
+    // calling minimum index function for minimum index 
+    int k = minIndex(a, index, n-1); 
+  
+    // Swapping when index nd minimum index are not same 
+    if (k != index) 
+       swap(a[k], a[index]); 
+  
+    // Recursively calling selection sort function 
+    recurSelectionSort(a, n, index + 1); 
+} 
 
 
 
